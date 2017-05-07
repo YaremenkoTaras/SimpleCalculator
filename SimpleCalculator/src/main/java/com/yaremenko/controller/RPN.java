@@ -6,7 +6,11 @@ import java.util.Stack;
  * @author Taras
  * @since 05.05.2017
  */
+
 public class RPN {
+	/*
+	 * RPN - Reverse Polish Notation алгоритм расчета строковых выражений используя постфиксную форму
+	 */
 	
 	//Метод Calculate принимает выражение в виде строки и возвращает результат, в своей работе использует другие методы класса
     public static Double calculate(String input) {
