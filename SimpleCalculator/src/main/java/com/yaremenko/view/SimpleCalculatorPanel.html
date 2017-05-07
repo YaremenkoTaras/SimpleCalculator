@@ -1,0 +1,58 @@
+<wicket:panel>
+	<form wicket:id="calculatorForm">
+		<label>Simple Calculator</label>
+		<table>
+			<tr>
+				<td colspan="3"><textarea rows="6" wicket:id="historyArea"
+						readonly></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="3"><input wicket:id="displayField" type="text"
+					readonly /></td>
+			</tr>			
+			<tr>
+				<td><input wicket:id="1" type="submit" value="1"></input></td>
+				<td><input wicket:id="2" type="submit" value="2"></input></td>
+				<td><input wicket:id="3" type="submit" value="3"></input></td>
+			</tr>
+			<tr>
+				<td><input wicket:id="4" type="submit" value="4"></input></td>
+				<td><input wicket:id="5" type="submit" value="5"></input></td>
+				<td><input wicket:id="6" type="submit" value="6"></input></td>
+			</tr>
+			<tr>
+				<td><input wicket:id="7" type="submit" value="7"></input></td>
+				<td><input wicket:id="8" type="submit" value="8"></input></td>
+				<td><input wicket:id="9" type="submit" value="9"></input></td>
+			</tr>
+			<tr>
+				<td><input wicket:id="0" type="submit" value="0"></input></td>
+				<td><input wicket:id="dot" type="submit" value="."></input></td>
+				<td><input wicket:id="del" type="submit" value="<-"></input></td>
+			</tr>
+		</table>
+		<span />
+		<table>
+			<tr>
+				<td><input wicket:id="add" type="submit" value="+" /></td>
+				<td><input wicket:id="sub" type="submit" value="-" /></td>
+				<td><input wicket:id="div" type="submit" value="/" /></td>
+				<td><input wicket:id="mul" type="submit" value="*" /></td>
+			</tr>
+
+			<tr>				
+				<td><input wicket:id="bracketOpen" type="submit" value="(" /></td>
+				<td><input wicket:id="bracketClose" type="submit" value=")" /></td>
+				<td><input wicket:id="pow" type="submit" value="^" /></td>
+				<td><input wicket:id="res" type="submit" value="=" /></td>
+			</tr>
+			<tr>
+				<td><input wicket:id="clear" type="submit" value="C" /></td>
+				<td><input wicket:id="clearHistory" type="submit" value="CH" /></td>
+			</tr>
+
+		</table>
+
+	</form>
+
+</wicket:panel>
